@@ -7,6 +7,10 @@ tldr -u
 # Install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Change theme
+sed -i 's/ZSH_THEME=".*"/ZSH_THEME="agnoster"/g' ~/.zshrc
+omz reload
+
 # Install asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.13.1
 echo '. "$HOME/.asdf/asdf.sh"' >> ~/.zshrc
