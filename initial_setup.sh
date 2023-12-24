@@ -1,5 +1,5 @@
 # Install base apps
-sudo apt install -y git curl tldr zsh
+sudo apt install -y git curl tldr zsh fonts-powerline
 
 # Update tldr database
 tldr -u
