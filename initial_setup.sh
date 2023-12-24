@@ -9,6 +9,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Change theme
 sed -i 's/ZSH_THEME=".*"/ZSH_THEME="agnoster"/g' ~/.zshrc
+echo 'DEFAULT_USER=$USER' >> ~/.zshrc
 omz reload
 
 # Install asdf
