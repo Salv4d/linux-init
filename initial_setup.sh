@@ -1,4 +1,7 @@
+# Install base apps
 sudo apt install git curl tldr
+
+# Update tldr database
 tldr -u
 
 # Install vscode
