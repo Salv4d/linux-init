@@ -21,3 +21,7 @@ omz reload
 curl -L 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64' -o vscode.deb
 sudo dpkg -i vscode.deb
 
+# Install solaar (logitech device manager)
+sudo add-apt-repository ppa:solaar-unifying/stable
+sudo apt update
+sudo apt install -y solaar
