@@ -1,3 +1,6 @@
+# Update repositories
+sudo apt update
+
 # Install base apps
 sudo apt install -y git curl tldr zsh fonts-powerline
 
